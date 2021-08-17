@@ -27,7 +27,7 @@ document.getElementById("clock").innerHTML=h+":"+m+":"+s+" "+ap;
 const months=["January", "February", "March", "April", "May", "June",
   "July", "August", "September", "October", "November", "December"];
 const days=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"];
-document.getElementById("date").innerHTML=days[val.getDay()-1]+", "+val.getDate()+" "+months[val.getMonth()-1]+" "+val.getFullYear()+".";
+document.getElementById("date").innerHTML=days[val.getDay()-1]+", "+val.getDate()+" "+months[val.getMonth()]+" "+val.getFullYear()+".";
 };
 setInterval(time,1000);
 
